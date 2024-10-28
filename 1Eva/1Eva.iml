@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ACTIVIDAD1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ACTIVIDAD2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ConectorJDBC" isTestSource="false" packagePrefix="Conectores" />
+      <sourceFolder url="file://$MODULE_DIR$/ACTIVIDADES" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

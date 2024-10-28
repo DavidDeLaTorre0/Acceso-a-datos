@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class Conexion {
 
     private static Connection jdbcConnection=null;
-    private static final String URL="jdbc:mysql://localhost:3306/test";
+    private static final String URL="jdbc:mysql://localhost:3308/my_database?useSSL=false&serverTimezone=UTC";
     private static final String USER= "root";
-    private static final String PWD= "";
+    private static final String PWD= "rootpassword";
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 
     private Conexion() throws SQLException {
@@ -36,5 +36,4 @@ public class Conexion {
             jdbcConnection.close();
         }
     }
-
 }

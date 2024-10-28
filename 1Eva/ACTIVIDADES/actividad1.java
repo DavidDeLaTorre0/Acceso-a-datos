@@ -257,8 +257,8 @@ public class actividad1 {
 
     public static void start04() {
 
-        File rutaBin = new File(System.getProperty("user.dir") + System.getProperty("file.separator") + "1Eva" +System.getProperty("file.separator")+ "ACTIVIDADES", "sources/CONCIERTOS.bin");
-        File rutaXml = new File(System.getProperty("user.dir") + System.getProperty("file.separator") + "1Eva" +System.getProperty("file.separator")+ "ACTIVIDADES", "sources/CONCIERTOS.xml");
+        File rutaBin = new File(System.getProperty("user.dir") + System.getProperty("file.separator") , "sources/CONCIERTOS.bin");
+        File rutaXml = new File(System.getProperty("user.dir") + System.getProperty("file.separator") , "sources/CONCIERTOS.xml");
 
 
         try (ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(rutaBin))) {
