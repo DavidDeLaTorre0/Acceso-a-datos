@@ -16,7 +16,7 @@ public class Departamento {
     }
 
     public Departamento(ArrayList<Empleado> empleados, Empresa empresa, String id, String localizacion, String nombre) {
-        this.empleados = empleados;
+       this.empleados = empleados;
         this.empresa = empresa;
         this.id = id;
         this.localizacion = localizacion;
