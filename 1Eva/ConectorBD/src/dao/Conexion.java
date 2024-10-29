@@ -19,7 +19,7 @@ public class Conexion {
                 jdbcConnection = DriverManager.getConnection(URL, USER, PWD);
 
             } catch (ClassNotFoundException e) {
-                throw new SQLException(e);
+                throw new SQLException(e.getMessage());
             }
         }
 

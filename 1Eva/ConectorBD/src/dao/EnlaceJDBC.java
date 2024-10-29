@@ -25,6 +25,7 @@ public class EnlaceJDBC {
         return rowInserted;
     }
 
+
     public ResultSet seleccionRegistros(String consultaSQL) {
         Statement sentencia = null;
         ResultSet filas = null;
